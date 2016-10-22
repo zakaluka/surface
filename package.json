@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mildrenben/surface.git"
+    "url": "git+https://github.com/zakaluka/surface.git"
   },
   "keywords": [
     "material",
     "material-design"
   ],
-  "author": "Ben Mildren",
+  "author": "Zakaluka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mildrenben/surface/issues"
+    "url": "https://github.com/zakaluka/surface/issues"
   },
   "homepage": "http://www.iamsurface.com",
   "devDependencies": {
