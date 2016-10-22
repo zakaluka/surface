@@ -15,7 +15,7 @@
 	<label for="nav--super-vertical-responsive">MENU</label>
 	<aside class="nav--super-vertical g--2 g-m--3 g-s--6 g-t--12 no-margin-vertical">
 		<div class="g--12 logo-area no-margin-vertical">
-			<h4 class="color--pink no-margin-vertical">Surface</h5>
+			<h4 class="color--pink no-margin-vertical">Surface</h4>
 		</div>
 		<nav class="g--12 no-margin-vertical">
 			<a href="../index.html">Home</a>
@@ -82,34 +82,34 @@ I fade in from the right
 			</pre>
 			<h3>Delays</h3>
 			<p>You can delay an animation for up to 10 seconds.</p>
-			<p>The suffixes go up to 100. 5 is 0.5s, 25 is 2.5s and so on.</p>
+			<p><strong>Deprecated</strong>: The suffixes go up to 100. 5 is 0.5s, 25 is 2.5s and so on.</p>
 			<ul>
 				<li>.anim-delay--5</li>
 				<li>.anim-delay--10</li>
 				<li>.anim-delay--15</li>
 				<li>.anim-delay--20</li>
 			</ul>
+
+			<p>The suffixes now match the ms of delay.  They start at 500ms (0.5s) and go up to 10,000ms (10s)</p>
+			<ul>
+				<li>.anim-delay--500</li>
+				<li>.anim-delay--1000</li>
+				<li>.anim-delay--1500</li>
+				<li>.anim-delay--2000</li>
+                <li>...</li>
+                <li>.anim-delay--10000</li>
+			</ul>
 			<pre>
 				<code class="lang-html">
-&lt;div class=&quot;fade-in-from-top anim-delay--5&quot;&gt;
+&lt;div class=&quot;fade-in-from-top anim-delay--500"&gt;
 I have 0.5s delay
 &lt;/div&gt;
-&lt;div class=&quot;fade-in-from-left anim-delay--50&quot;&gt;
+&lt;div class=&quot;fade-in-from-left anim-delay--5000&quot;&gt;
 I have a 5s delay
 &lt;/div&gt;
 				</code>
 			</pre>
 		</div>
 	</main>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-62569134-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
 </body>
 </hmtl>
